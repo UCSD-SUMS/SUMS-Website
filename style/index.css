@@ -1,7 +1,11 @@
+body {
+    padding-top: 50px;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('../Home_Pic.jpg');
+  background-image: url('../images/Home_Pic.jpg');
   background-size: cover;
   color: #ffffff;
   height: 700px;
