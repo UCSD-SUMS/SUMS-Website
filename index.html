@@ -55,9 +55,9 @@
       <div class="row">
         <div class="col-xs-12 col-md-12 text-center">
           <div class="btn-group btn-group-lg" role="group" data-toggle="buttons" aria-label="Section Selector">
-            <button type="button" class="btn btn-secondary active"
-              onclick="homePageInfo('information')" id="informationButton">Information</button>
             <button type="button" class="btn btn-secondary"
+              onclick="homePageInfo('information')" id="informationButton">Information</button>
+            <button type="button" class="btn btn-secondary active"
               onclick="homePageInfo('announcements')" id="announcementsButton">Announcements</button>
             <button type="button" class="btn btn-secondary"
               onclick="homePageInfo('sign-ins')" id="signinButton">Sign-ins</button>
@@ -112,12 +112,22 @@
 
       <!-- SIGN-IN goes here. -->
       <div class="row">
-        <div class="col-xs-0 col-md-2"></div>
-        <div class="col-xs-12 col-md-8 text-left" id="sign-ins">
+        <div class="col-xs-1 col-sm-2 col-md-4"></div>
+        <div class="col-xs-10 col-sm-8 col-md-4 text-center" id="sign-ins">
+
+          <div class="row text-center">
+            <button type="button" class="btn btn-outline-dark btn-lg btn-block"
+              onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSegVuu8XFRyqyV0b-BBtjWRDenvNWW5UVQxxHT3jBQNgRQJvw/viewform'">Event Sign-in</button>
+          </div>
+          <div class="row text-center">
+            <button type="button" class="btn btn-outline-dark btn-lg btn-block"
+              onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSc0w8VYnGMO_xd_njR_FYBG2WSKVuD5W_Q16OQrEjblsOkVlQ/viewform'">Business Meeting Sign-in</button>
+          </div>
 
         </div>
-        <div class="col-xs-0 col-md-2"></div>
+        <div class="col-xs-1 col-sm-2 col-md-4"></div>
       </div>
+
 
     </div>
     <!-- Optional JavaScript -->
