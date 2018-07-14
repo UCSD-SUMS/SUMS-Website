@@ -50,6 +50,76 @@
       <h1 class="display-4">Society of Undergraduate Mathematics Students</h1>
     </div>
 
+    <div class="container">
+      <!-- Button group -->
+      <div class="row">
+        <div class="col-xs-12 col-md-12 text-center">
+          <div class="btn-group btn-group-lg" role="group" data-toggle="buttons" aria-label="Section Selector">
+            <button type="button" class="btn btn-secondary active"
+              onclick="homePageInfo('information')" id="informationButton">Information</button>
+            <button type="button" class="btn btn-secondary"
+              onclick="homePageInfo('announcements')" id="announcementsButton">Announcements</button>
+            <button type="button" class="btn btn-secondary"
+              onclick="homePageInfo('sign-ins')" id="signinButton">Sign-ins</button>
+          </div>
+          <script src="homePageInfo.js"></script>
+        </div>
+      </div>
+
+
+
+      <!-- INFORMATION goes here. -->
+      <div class="row">
+        <div class="col-xs-0 col-md-2"></div>
+        <div class="col-xs-12 col-md-8 text-left" id="information">
+          <p>This is the website for UCSD SUMS (Society of Undergraduate Mathematics Students).</br>
+             In addition to this website, there is also a Facebook group and a Slack channel
+             that is open to anyone with an @ucsd.edu email address. To join them, simply click the
+             buttons below.</br>
+             Our events are posted in our Facebook group. In addition to events, we also hold business
+             meetings on Mondays in AP&M 7218 from 5:30–7 P.M. during spring quarter 2018. They are
+             completely open to the public, and we strongly encourage members to attend and have
+             your voices heard!
+          </p>
+        </div>
+        <div class="col-xs-0 col-md-2"></div>
+      </div>
+
+
+
+      <!-- ANNOUNCEMENTS go here. -->
+      <div class="row">
+        <div class="col-xs-0 col-md-2"></div>
+        <div class="col-xs-12 col-md-8 text-left" id="announcements">
+          <ul>
+            <li>Our mailing list is live! Don't miss out on all that's happening with SUMS!
+              <a href="http://sums.ucsd.edu/-signup">Sign up here.</a></li>
+            <li>Congratulations to Integration Bee winners! They are:
+              <ul>
+                <li>1st place: Jor-el Briones</li>
+                <li>2nd place: Max Morehead</li>
+                <li>3rd place: Brian Chao</li>
+                <li>4th place: Tianyao Xu</li>
+                <li><a href="https://challonge.com/sumsintegrationbee2018">Other participants and matches.</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-0 col-md-2"></div>
+      </div>
+
+
+
+      <!-- SIGN-IN goes here. -->
+      <div class="row">
+        <div class="col-xs-0 col-md-2"></div>
+        <div class="col-xs-12 col-md-8 text-left" id="sign-ins">
+
+        </div>
+        <div class="col-xs-0 col-md-2"></div>
+      </div>
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

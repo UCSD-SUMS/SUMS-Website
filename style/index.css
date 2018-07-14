@@ -19,3 +19,19 @@ body {
   bottom: 50px;
   color: #fff;
 }
+
+.btn-group{
+  bottom: 10px;
+}
+
+#information{
+  display: block;
+}
+
+#announcements{
+  display: none;
+}
+
+#sign-ins{
+  display: none;
+}
