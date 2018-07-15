@@ -8,17 +8,18 @@ body {
   background-image: url('../images/Home_Pic.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 700px;
+  height: 900px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  overflow: auto;
+  background-position: center;
 }
 
 .jumbotron h1 {
   position: relative;
   font-size: 60px;
   font-weight: 700;
-  bottom: 50px;
+  bottom: 200px;
   color: #fff;
-  background-position: right center;
 }
 
 .btn-group{
