@@ -18,6 +18,7 @@ body {
   font-weight: 700;
   bottom: 50px;
   color: #fff;
+  background-position: right center;
 }
 
 .btn-group{
@@ -34,4 +35,8 @@ body {
 
 #sign-ins{
   display: none;
+}
+
+#botBar{
+  margin-top: 20px;
 }

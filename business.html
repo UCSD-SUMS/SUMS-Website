@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <title>UCSD SUMS - Events</title>
+    <title>UCSD SUMS - Business</title>
 
     <link rel="stylesheet" type="text/css" href="style/business.css">
   </head>
@@ -56,6 +56,46 @@
         </button>
       </div>
     </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-0 col-md-1"></div>
+        <div class="col-xs-12 col-md-10">
+          <div class="accordion" id="modules">
+
+            <!-- Constitution Module -->
+            <div class="card">
+              <div class="card-header" id="constitutionHeading">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#constitution" aria-expanded="true" aria-controls="constitution">
+                    Constitution
+                  </button>
+                </h5>
+              </div>
+
+              <div class="collapse show" aria-labelledby="constitutionHeading" data-parent="#modules" id="constitution">
+                <div class="card-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-items" id="constitutionContent"
+                    src="https://docs.google.com/document/d/e/2PACX-1vTvyFo_Nix5wt5QOc-QxA4N2CTUNh99CxXCCMdL1gsaFnjWgG0Kl6dJYc4IuDhJZI6ynDwue0CAQqkY/pub?embedded=true"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-xs-0 col-md-1"></div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <nav class="navbar sticky-bottom navbar-dark bg-dark" id="botBar">
+      <span class="navbar-text">
+        Society of Undergraduate Mathematics Students | Website Created by Junhao Zhang
+      </span>
+    </nav>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
