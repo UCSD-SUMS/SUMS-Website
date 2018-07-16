@@ -57,90 +57,86 @@
       </div>
     </nav>
 
-    <!-- Jumbotron image -->
-    <div class="jumbotron">
-      <h1 class="display-4">Society of Undergraduate Mathematics Students</h1>
-    </div>
-
     <div class="container">
-      <!-- Button group -->
-      <div class="row">
-        <div class="col-xs-12 col-md-12 text-center">
-          <div class="btn-group btn-group-lg" role="group" data-toggle="buttons" aria-label="Section Selector">
-            <button type="button" class="btn btn-secondary"
-              onclick="homePageInfo('information')" id="informationButton">Information</button>
-            <button type="button" class="btn btn-secondary active"
-              onclick="homePageInfo('announcements')" id="announcementsButton">Announcements</button>
-            <button type="button" class="btn btn-secondary"
-              onclick="homePageInfo('sign-ins')" id="signinButton">Sign-ins</button>
-          </div>
-          <script src="homePageInfo.js"></script>
-        </div>
-      </div>
-
-
+      <!-- Heading -->
+      <row class="text-left">
+        <h1>Society of Undergraduate Mathematics Students</h1>
+      </row>
 
       <!-- INFORMATION goes here. -->
-      <div class="row">
-        <div class="col-xs-0 col-md-2"></div>
-        <div class="col-xs-12 col-md-8 text-left" id="information">
-          <p>This is the website for UCSD SUMS (Society of Undergraduate Mathematics Students).</br>
-             In addition to this website, there is also a Facebook group and a Slack channel
-             that is open to anyone with an @ucsd.edu email address. To join them, simply click the
-             buttons at the top-right of this page.</br>
-             Our events are posted in our Facebook group. In addition to events, we also hold business
-             meetings on Mondays in AP&M 7218 from 5:30–7 P.M. during spring quarter 2018. They are
-             completely open to the public, and we strongly encourage members to attend and have
-             your voices heard!
-          </p>
+      <div class="section">
+        <div class="row">
+          <h3>Information</h3>
         </div>
-        <div class="col-xs-0 col-md-2"></div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-12 text-left" id="information">
+            <p>This is the website for UCSD SUMS (Society of Undergraduate Mathematics Students).</br>
+              In addition to this website, there is also a Facebook group and a Slack channel
+              that is open to anyone with an @ucsd.edu email address. To join them, simply click the
+              buttons at the top-right of this page.</br>
+              Our events are posted in our Facebook group. In addition to events, we also hold business
+              meetings on Mondays in AP&M 7218 from 5:30–7 P.M. during spring quarter 2018. They are
+              completely open to the public, and we strongly encourage members to attend and have
+              your voices heard!
+            </p>
+          </div>
+        </div>
       </div>
 
 
 
       <!-- ANNOUNCEMENTS go here. -->
-      <div class="row">
-        <div class="col-xs-0 col-md-2"></div>
-        <div class="col-xs-12 col-md-8 text-left" id="announcements">
-          <ul>
-            <li>Our mailing list is live! Don't miss out on all that's happening with SUMS!
-              <a href="http://sums.ucsd.edu/-signup">Sign up here.</a></li>
-            <li>Congratulations to Integration Bee winners! They are:
-              <ul>
-                <li>1st place: Jor-el Briones</li>
-                <li>2nd place: Max Morehead</li>
-                <li>3rd place: Brian Chao</li>
-                <li>4th place: Tianyao Xu</li>
-                <li><a href="https://challonge.com/sumsintegrationbee2018">Other participants and matches.</a></li>
+      <div class="section">
+        <div class="row">
+          <h3>Announcements</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-12 text-left">
+            <ul>
+              <li>Our mailing list is live! Don't miss out on all that's happening with SUMS!
+                <a href="http://sums.ucsd.edu/-signup">Sign up here.</a></li>
+                <li>Congratulations to Integration Bee winners! They are:
+                  <ul>
+                    <li>1st place: Jor-el Briones</li>
+                    <li>2nd place: Max Morehead</li>
+                    <li>3rd place: Brian Chao</li>
+                    <li>4th place: Tianyao Xu</li>
+                    <li><a href="https://challonge.com/sumsintegrationbee2018">Other participants and matches.</a></li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="col-xs-0 col-md-2"></div>
-      </div>
-
-
-
-      <!-- SIGN-IN goes here. -->
-      <div class="row">
-        <div class="col-xs-1 col-sm-2 col-md-4"></div>
-        <div class="col-xs-10 col-sm-8 col-md-4 text-center" id="sign-ins">
-
-          <div class="row text-center">
-            <button type="button" class="btn btn-outline-dark btn-lg btn-block"
-              onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSegVuu8XFRyqyV0b-BBtjWRDenvNWW5UVQxxHT3jBQNgRQJvw/viewform'">Event Sign-in</button>
+            </div>
           </div>
-          <div class="row text-center">
-            <button type="button" class="btn btn-outline-dark btn-lg btn-block"
-              onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSc0w8VYnGMO_xd_njR_FYBG2WSKVuD5W_Q16OQrEjblsOkVlQ/viewform'">Business Meeting Sign-in</button>
+        </div>
+
+
+
+        <!-- SIGN-IN goes here. -->
+        <div class="section">
+          <div class="row">
+            <h3>Sign-ins</h3>
           </div>
 
-        </div>
-        <div class="col-xs-1 col-sm-2 col-md-4"></div>
-      </div>
-    </div>
+          <div class="row">
+            <div class="col-xs-1 col-sm-2 col-md-4"></div>
+            <div class="col-xs-10 col-sm-8 col-md-4 text-center" id="sign-ins">
 
+              <div class="row text-center">
+                <button type="button" class="btn btn-outline-dark btn-lg btn-block"
+                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSegVuu8XFRyqyV0b-BBtjWRDenvNWW5UVQxxHT3jBQNgRQJvw/viewform'">Event Sign-in</button>
+
+                <button type="button" class="btn btn-outline-dark btn-lg btn-block"
+                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSc0w8VYnGMO_xd_njR_FYBG2WSKVuD5W_Q16OQrEjblsOkVlQ/viewform'">Business Meeting Sign-in</button>
+              </div>
+
+            </div>
+            <div class="col-xs-1 col-sm-2 col-md-4"></div>
+          </div>
+        </div>
+        
+      </div>
     <!-- Bottom Bar -->
     <nav class="navbar sticky-bottom navbar-dark bg-dark" id="botBar">
       <span class="navbar-text">
