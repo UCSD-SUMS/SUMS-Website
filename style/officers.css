@@ -7,6 +7,29 @@ body {
 }
 
 .card {
-  margin: 20px 0px 20px 0px;
+  margin: 5px 0;
   height: 100%;
+  border-radius:15px;
+}
+
+.demographics {
+  margin-top:-.5em;
+  font-size:85%;
+  line-height:130%;
+  color:#909090;
+}
+
+.quote {
+  margin-top:1em;
+  text-align:left;
+  font-size:95%;
+  font-style:italic;
+  color:#505050
+}
+
+.interests{
+  margin-top:1em;
+  text-align:left;
+  font-size:85%;
+  color:#909090;
 }
