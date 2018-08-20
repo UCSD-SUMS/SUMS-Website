@@ -1,35 +1,35 @@
 .card {
-  height:100%;
-  border-radius:15px;
+  height: 100%;
+  border-radius: 15px;
 }
 
 .card-header:first-child {
-  border-radius:15px 15px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 .info {
-  margin-top:-.5em;
-  font-size:85%;
-  line-height:130%;
-  color:#909090;
+  margin-top: -.5em;
+  font-size: 85%;
+  line-height: 130%;
+  color: #909090;
 }
 
 .quote {
-  margin-top:1em;
-  text-align:left;
-  font-size:95%;
-  font-style:italic;
-  color:#505050;
+  margin-top: 1em;
+  text-align: left;
+  font-size: 95%;
+  font-style: italic;
+  color: #505050;
 }
 
-.interests{
-  margin-top:1em;
-  text-align:left;
-  font-size:85%;
-  color:#909090;
+.interests {
+  margin-top: 1em;
+  text-align: left;
+  font-size: 85%;
+  color: #909090;
 }
 
-.footnote{
-  font-size:80%;
-  font-style:italic;
+#footnote {
+  font-size: 80%;
+  font-style: italic;
 }
