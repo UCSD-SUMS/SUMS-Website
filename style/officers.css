@@ -8,25 +8,25 @@
 }
 
 .info {
-  margin-top: -.5em;
+  color: #909090;
   font-size: 85%;
   line-height: 130%;
-  color: #909090;
+  margin-top: -.5em;
 }
 
 .quote {
-  margin-top: 1em;
-  text-align: left;
+  color: #505050;
   font-size: 95%;
   font-style: italic;
-  color: #505050;
+  margin-top: 1em;
+  text-align: left;
 }
 
 .interests {
+  color: #909090;
+  font-size: 85%;
   margin-top: 1em;
   text-align: left;
-  font-size: 85%;
-  color: #909090;
 }
 
 #footnote {

@@ -1,0 +1,10 @@
+body {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+#timestamp {
+  color: silver;
+  font-size: 50%;
+  text-align: left
+}
