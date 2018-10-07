@@ -1,12 +1,35 @@
-body {
-  padding-top: 75px;
-}
-
-.container{
-  min-height: 620px;
-}
-
 .card {
-  margin: 20px 0px 20px 0px;
   height: 100%;
+  border-radius: 15px;
+}
+
+.card-header:first-child {
+  border-radius: 15px 15px 0 0;
+}
+
+.info {
+  color: #909090;
+  font-size: 85%;
+  line-height: 130%;
+  margin-top: -.5em;
+}
+
+.quote {
+  color: #505050;
+  font-size: 95%;
+  font-style: italic;
+  margin-top: 1em;
+  text-align: left;
+}
+
+.interests {
+  color: #909090;
+  font-size: 85%;
+  margin-top: 1em;
+  text-align: left;
+}
+
+#footnote {
+  font-size: 80%;
+  font-style: italic;
 }
