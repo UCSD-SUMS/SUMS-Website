@@ -1,17 +1,21 @@
-# Guide for Maintaining the Website
+# README
 
-## Synchronizing Files to Server
-`rsync -r --del --exclude=.* --progress PATH sums@sums.ucsd.edu:public_html`  
-where `PATH` is the path to your local repository.
+## Updating the Website
+Clone this repository to your computer to create a local copy on your computer. Make changes in your local repository. To transfer files to our server: `rsync -r --del --exclude=.* --progress PATH sums@sums.ucsd.edu:public_html` where `PATH` is the path to your local repository. We recommend making an alias in your `.bashrc` or `.bash_profile`. For example:
+`alias sync="rsync -r --del --exclude=.* --progress ~/Documents/UCSD/SUMS/public_html/ sums@sums.ucsd.edu:public_html"`
 
-We recommend saving an alias in your `.bashrc` or `.bash_profile`. For example,  
-`alias sync="rsync -r --del --exclude=.* --progress ~/Documents/UCSD/SUMS/public_html/ sums@sums.ucsd.edu:public_html"`.
+**When making changes, don't forget to push your changes to this repository so that everyone has access to the most up-to-date code.**
 
-## Updating Homepage and/or Announcements
-Go to index.html and add/delete list items in the corresponding section. Each section has a comment that details what belongs to that section.
+To access the server for whatever reason: `ssh sums@sums.ucsd.edu`
 
-## Editing Officer Information
-(For officers only) Go to officers.html and find your corresponding section (by Ctrl+F or Cmd+F your position). You can then change any of your info.
-
-## Contact
-If you have any questions regarding website maintainance, feel free to email our tech chair at juz073@ucsd.edu. Alternatively, you may go to our slack channel (ucsdsums.slack.com), send a message, and @Junhao Zhang.
+## Files/Directories
+- `archive/`: Directory for archived files used in the "Archives" tab
+- `archives.html`: HTML file for the "Archives" tab
+- `documents/`: Directory for documents used throughout the website
+- `get-involved.html`: HTML file for the "Get Involved" tab
+- `images/`: Directory for images used throughout the website
+- `index.html`: HTML file for the "Home" tab
+- `officers.html`: HTML file for the "Officers" tab
+- `scripts.js`: Miscellaneous JavaScript scripts used throughout the website
+- `style/`: Directory for CSS files corresponding to each HTML file
+- `talks.html`: HTML file for the "Talks" tab
