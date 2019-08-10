@@ -3,14 +3,14 @@
 ## Updating the Website
 Clone this repository to your computer to create a local copy on your computer. Make changes in your local repository.
 
-To transfer files to our server: `rsync -r --del --exclude=.* --progress PATH sums@sums.ucsd.edu:public_html` where `PATH` is the path to your local repository.
+To transfer your changes to our server: `rsync -r --del --exclude=.* --progress PATH sums@sums.ucsd.edu:public_html` where `PATH` is the path to your local repository.
 
 We recommend making an alias in your `.bashrc` or `.bash_profile`. For example:
-`alias sync="rsync -r --del --exclude=.* --progress ~/Documents/UCSD/SUMS/public_html/ sums@sums.ucsd.edu:public_html"`
+`alias sync="rsync -r --del --exclude=.* --progress PATH sums@sums.ucsd.edu:public_html"`
 
 **When making changes, don't forget to push your changes to this repository so that everyone has access to the most up-to-date code.**
 
-To access the server for whatever reason: `ssh sums@sums.ucsd.edu`
+To SSH into our server if needed: `ssh sums@sums.ucsd.edu`
 
 ## Files/Directories
 - `archive/`: Directory for archived files used in the "Archives" tab
