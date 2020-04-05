@@ -8,3 +8,9 @@ body {
   font-size: 50%;
   text-align: left
 }
+
+table {
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}

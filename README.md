@@ -3,6 +3,13 @@
 ## Updating the Website
 Clone this repository to your computer to create a local copy on your computer. Make changes in your local repository.
 
+This site also has some generated pages.
+To create these pages, run `make` if you are on a unix based system.
+The make file currently depends on these packages:
+
+* `pandoc`
+* `sed`
+
 To transfer your changes to our server: `rsync -r --del --exclude=.* --progress PATH sums@sums.ucsd.edu:public_html` where `PATH` is the path to your local repository.
 
 We recommend making an alias in your `.bashrc` or `.bash_profile`. For example:
