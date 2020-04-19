@@ -6,4 +6,4 @@ Execute the `history` rule from the root make file.
 $ make history
 ```
 
-The implementation of the markdown conversion is located in <gen-pages.sh>.
+The implementation of the markdown conversion is located in [here](gen-pages.sh).
