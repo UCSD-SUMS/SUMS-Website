@@ -11,4 +11,4 @@ These links are currently added manually.
 * [18-19 Quarter 1](18-19.q1.html)
 * [18-19 Quarter 2](18-19.q2.html)
 * [18-19 Quarter 3](18-19.q3.html)
-* [19-20 Quarter 2](19-20.q1.html)
+* [19-20 Quarter 2](19-20.q2.html)
